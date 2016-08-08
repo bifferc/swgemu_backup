@@ -1,8 +1,8 @@
 # The-Phoenix-Realm
 
-This Project Consist of many Collaborators Over The Years Who Brought The Project To Its Current State.
+This Project Consist Of many Collaborators Over The Years Who Brought The Project To Its Current State.
 
-Collaboration Credit Is Given to The Following Contributors
+Collaboration Credit Is Given To The Following Contributors
 * https://github.com/TheAnswer
 * https://github.com/Xela-TheCreation
 * https://github.com/Yakone
