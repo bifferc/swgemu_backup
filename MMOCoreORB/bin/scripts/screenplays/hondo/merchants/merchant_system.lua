@@ -52,7 +52,7 @@ function MerchantSystem:adjustPrice(conversingPlayer, cost, relationsTable)
 	return ObjectManager.withCreatureAndPlayerObject(conversingPlayer, function(creatureObject, playerObject)
 		-- Calculate price adjustment
 		local finalPrice = cost
-		for lc = 1, table.getn(relationsTable) , 1 do
+		for lc = 1, #relationsTable , 1 do
 			local playerStanding = playerObject:getFactionStanding(relationsTable[lc].name)
 			playerStanding = math.min(playerStanding, 5000) -- cap faction due to Rebel/Imperial
 			
@@ -82,7 +82,7 @@ end
 function MerchantSystem:refuseService(conversingPlayer, relationsTable)
 	return ObjectManager.withCreatureAndPlayerObject(conversingPlayer, function(creatureObject, playerObject)
 		-- Check NPC/Player relations
-		for lc = 1, table.getn(relationsTable) , 1 do
+		for lc = 1, #relationsTable , 1 do
 			local playerStanding = playerObject:getFactionStanding(relationsTable[lc].name)
 			
 			if (playerStanding ~= -9000) then -- Ignore special case price adjust standing
@@ -153,7 +153,7 @@ function MerchantSystem:completeSale(pObject, creature, relationsTable, goodsTab
 			if (chargePlayer ~= nil) then -- Error checking
 				creature:subtractCashCredits(chargePlayer)
 				-- Grant items
-				for ic = 1, table.getn(goodsTable[gtlc].items) , 1 do
+				for ic = 1, #goodsTable[gtlc].items , 1 do
 					local pItem = giveItem(pInventory, goodsTable[gtlc].items[ic], -1)
 				end
 			else 
@@ -203,7 +203,7 @@ function MerchantSystem:nextConvoScreenInnards(conversationTemplate, conversingP
 			
 			-- Process sale 
 			if (isShopping) then
-				for lc = 1, table.getn(goodsTable) , 1 do
+				for lc = 1, #goodsTable , 1 do
 					MerchantSystem:processSelection(conversingPlayer, optionLink, goodsTable, lc)
 				end
 				MerchantSystem:endShopping(conversingPlayer)
@@ -233,7 +233,7 @@ function MerchantSystem:runScreenHandlerInnards(conversationTemplate, conversing
 		conversationScreen = screen:cloneScreen()
 		local clonedConversation = LuaConversationScreen(conversationScreen)
 	
-		for lc = 1, table.getn(goodsTable) , 1 do
+		for lc = 1, #goodsTable , 1 do
 			local price = MerchantSystem:adjustPrice(conversingPlayer, goodsTable[lc].cost, relationsTable)
 			clonedConversation:addOption(goodsTable[lc].itemName .. "  (" .. price .. ")" , goodsTable[lc].optName)
 		end 
