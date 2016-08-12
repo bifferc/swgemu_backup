@@ -1,4 +1,10 @@
 # The-Phoenix-Realm
+Project Phoenix Team Speak
+
+ts88.teamspeak3.com:5432
+http://www.gametracker.com/server_info/216.127.64.15:5432/
+
+If you join our teamspeak join with SWG before your name so we can give you permissions to move out of the air lock
 
 This Project Consist Of many Collaborators Over The Years Who Brought The Project To Its Current State.
 
