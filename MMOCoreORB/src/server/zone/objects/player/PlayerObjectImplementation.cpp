@@ -2006,7 +2006,7 @@ void PlayerObjectImplementation::setLinkDead(bool isSafeLogout) {
 
 	logoutTimeStamp.updateToCurrentTime();
 	if(!isSafeLogout)
-		logoutTimeStamp.addMiliTime(31536000000); // 31536000000 seconds if unsafe
+		logoutTimeStamp.addMiliTime(180000); // 3 minutes if unsafe
 
 	setCharacterBit(PlayerObjectImplementation::LD, true);
 
