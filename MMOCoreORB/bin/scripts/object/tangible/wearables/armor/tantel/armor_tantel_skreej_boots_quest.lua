@@ -91,6 +91,7 @@ object_tangible_wearables_armor_tantel_armor_tantel_skreej_boots_quest = object_
 	healthEncumbrance = 1,
 	actionEncumbrance = 1,
 	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
@@ -103,6 +104,7 @@ object_tangible_wearables_armor_tantel_armor_tantel_skreej_boots_quest = object_
 	heat = 15,
 	cold = 15,
 	acid = 15,
+	lightSaber = 0,
 	lightSaber = 0
 }
 

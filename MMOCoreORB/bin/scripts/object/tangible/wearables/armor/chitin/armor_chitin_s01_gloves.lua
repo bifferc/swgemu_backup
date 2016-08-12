@@ -84,24 +84,25 @@ object_tangible_wearables_armor_chitin_armor_chitin_s01_gloves = object_tangible
 				"object/mobile/vendor/zabrak_female.iff",
 				"object/mobile/vendor/zabrak_male.iff" },
 
-	-- Damagetypes in WeaponObject
-	vulnerability = STUN + HEAT + COLD + ELECTRICITY + LIGHTSABER,
+	-- Damage types in WeaponObject
+	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 13,
-	actionEncumbrance = 25,
-	mindEncumbrance = 16,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 25,
+	kinetic = 15,
 	energy = 15,
-	electricity = 0,
-	stun = 0,
+	electricity = 15,
+	stun = 15,
 	blast = 15,
-	heat = 0,
-	cold = 0,
+	heat = 15,
+	cold = 15,
 	acid = 15,
 	lightSaber = 0,
 

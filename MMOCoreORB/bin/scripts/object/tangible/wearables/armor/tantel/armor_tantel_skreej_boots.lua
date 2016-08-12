@@ -88,9 +88,10 @@ object_tangible_wearables_armor_tantel_armor_tantel_skreej_boots = object_tangib
 	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 8,
-	actionEncumbrance = 18,
-	mindEncumbrance = 7,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,

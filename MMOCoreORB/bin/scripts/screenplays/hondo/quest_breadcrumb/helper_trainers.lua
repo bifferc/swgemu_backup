@@ -69,7 +69,7 @@ registerScreenPlay("HelperTrainersScreenPlay", true)
 function HelperTrainersScreenPlay:start()
     if (isZoneEnabled(self.questConfig.planetName)) then
         -- Spawn character
-        local pCoord = spawnMobile(self.questConfig.planetName, "helper_trainers", 1, -2896.3, 5.0, 2137.3, -67, 0)
+        --local pCoord = spawnMobile(self.questConfig.planetName, "helper_trainers", 1, -2896.3, 5.0, 2137.3, -67, 0)
     end
 end
 

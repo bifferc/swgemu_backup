@@ -85,24 +85,27 @@ object_tangible_wearables_armor_ris_armor_ris_helmet = object_tangible_wearables
 				"object/mobile/vendor/zabrak_female.iff",
 				"object/mobile/vendor/zabrak_male.iff" },
 	
+	-- Damage types in WeaponObject
+	vulnerability = LIGHTSABER,
+
 	-- These are default Blue Frog stats
-	healthEncumbrance = 20,
-	actionEncumbrance = 20,
-	mindEncumbrance = 20,
-	maxCondition = 250000,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
-	rating = HEAVY,
+	rating = LIGHT,
 
-	kinetic = 75,
-	energy = 75,
-	electricity = 75,
-	stun = 75,
-	blast = 75,
-	heat = 75,
-	cold = 75,
-	acid = 75,
-	lightSaber = 75,
+	kinetic = 15,
+	energy = 15,
+	electricity = 15,
+	stun = 15,
+	blast = 15,
+	heat = 15,
+	cold = 15,
+	acid = 15,
+	lightSaber = 0,
 
 	numberExperimentalProperties = {1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
 	experimentalProperties = {"XX", "XX", "XX", "XX", "OQ", "SR", "OQ", "UT", "MA", "OQ", "MA", "OQ", "MA", "OQ", "XX", "XX", "OQ", "SR", "XX"},

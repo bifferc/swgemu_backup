@@ -18,7 +18,6 @@ object_tangible_beta_beta_terminal_wound = object_tangible_beta_shared_beta_term
 
 
 	itemList = {
-			"Buff Character (5,000 Credits)", "enhance_character",
 			"Clense Character", "cleanse_character",
 			"Reset Buffs", "reset_buffs",
 			"Apply DOTs", "apply_dots",
@@ -27,7 +26,6 @@ object_tangible_beta_beta_terminal_wound = object_tangible_beta_shared_beta_term
 			{
 				"Learn Languages", "language",
 				"Master Politician", "social_politician_master",
-				"Bounty Hunter Investigation 3", "combat_bountyhunter_investigation_03",
 				"WARNING UNLEARN ALL SKILLS WARNING",
 					{
 					"Last chance to cancel, no undoing this!!", "unlearn_all_skills",

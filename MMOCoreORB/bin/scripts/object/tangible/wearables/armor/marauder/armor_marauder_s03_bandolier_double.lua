@@ -85,12 +85,13 @@ object_tangible_wearables_armor_marauder_armor_marauder_s03_bandolier_double = o
 				"object/mobile/vendor/zabrak_male.iff" },
 	
 	-- Damage types in WeaponObject
-	vulnerability = ELECTRICITY + ACID + STUN + LIGHTSABER,
+	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
 	healthEncumbrance = 1,
 	actionEncumbrance = 1,
 	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
@@ -103,7 +104,7 @@ object_tangible_wearables_armor_marauder_armor_marauder_s03_bandolier_double = o
 	heat = 15,
 	cold = 15,
 	acid = 15,
-	lightSaber = 0
+	lightSaber = 0,
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_armor_marauder_armor_marauder_s03_bandolier_double, "object/tangible/wearables/armor/marauder/armor_marauder_s03_bandolier_double.iff")

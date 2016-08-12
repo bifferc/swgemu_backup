@@ -64,7 +64,7 @@ end
 
 function HelperquestScreenPlay:spawnMobiles()
     -- Quest Giver
-  local pCoord = spawnMobile("tatooine", "helper_quest", 1, 3534.6, 5.0, -4814.37, -67, 0)
+  --local pCoord = spawnMobile("tatooine", "helper_quest", 1, 3534.6, 5.0, -4814.37, -67, 0)
 end
 
 

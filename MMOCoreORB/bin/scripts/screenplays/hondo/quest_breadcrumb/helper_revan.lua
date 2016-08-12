@@ -74,7 +74,7 @@ end
 
 function HelperrevanScreenPlay:spawnMobiles()
     -- Quest Giver
-  local pCoord = spawnMobile("lok", "helper_revan", 1, 471.692, 8.76214, 5506.58, 0, 0)
+  --local pCoord = spawnMobile("lok", "helper_revan", 1, 471.692, 8.76214, 5506.58, 0, 0)
 end
 
 

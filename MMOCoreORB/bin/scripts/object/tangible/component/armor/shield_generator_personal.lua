@@ -96,13 +96,15 @@ object_tangible_component_armor_shield_generator_personal = object_tangible_comp
 				"object/mobile/vendor/wookiee_male.iff" },
 	
 
+
 	-- These are default Blue Frog stats
-	healthEncumbrance = 0,
-	actionEncumbrance = 0,
-	mindEncumbrance = 0,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
-	rating = HEAVY,
+	rating = LIGHT,
 
 	kinetic = 15,
 	energy = 15,

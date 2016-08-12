@@ -84,24 +84,22 @@ object_tangible_wearables_armor_bounty_hunter_armor_bounty_hunter_bracer_l = obj
 				"object/mobile/vendor/zabrak_female.iff",
 				"object/mobile/vendor/zabrak_male.iff" },
 	
+	-- The damage types in WeaponObject
+	vulnerability = STUN + HEAT + ACID + LIGHTSABER,
+
 	-- These are default Blue Frog stats
-	healthEncumbrance = 20,
-	actionEncumbrance = 20,
-	mindEncumbrance = 20,
-	maxCondition = 500000,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
 
 	-- LIGHT, MEDIUM, HEAVY
-	rating = HEAVY,
+	rating = LIGHT,
 
-	kinetic = 75,
-	energy = 75,
-	electricity = 75,
-	stun = 75,
-	blast = 75,
-	heat = 75,
-	cold = 75,
-	acid = 75,
-	lightSaber = 75,
+	kinetic = 15,
+	energy = 15,
+	electricity = 15,
+	blast = 15,
+	cold = 15,
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_armor_bounty_hunter_armor_bounty_hunter_bracer_l, "object/tangible/wearables/armor/bounty_hunter/armor_bounty_hunter_bracer_l.iff")

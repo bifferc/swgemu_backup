@@ -4,7 +4,7 @@ redeeditem2 = {
 	minimumLevel = 0,
 	maximumLevel = -1,
 	customObjectName = "Deed for: BARC Speeder",
-	directObjectTemplate = "object/tangible/deed/vehicle_deed/barc_speeder_deed.iff",
+	directObjectTemplate = "object/tangible/container/loot/player_loot_crate.iff",
 	craftingValues = {
 	},
 	customizationStringNames = {},

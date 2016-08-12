@@ -70,6 +70,9 @@ lootableArmorAttachmentStatMods = {
 	"aim",
 	"bio_engineer_assembly",
 	"bio_engineer_experimentation",
+	"combat_healing_ability",
+	"combat_medic_effectiveness",
+	"healing_ability",
 	"creature_harvesting",
 	"creature_hit_bonus",
 	"creature_knowledge",
@@ -174,6 +177,9 @@ lootableArmorAttachmentStatMods = {
 
 lootableClothingAttachmentStatMods = {
 	"aim",
+	"combat_healing_ability",
+	"combat_medic_effectiveness",
+	"healing_ability",
 	"jedi_saber_assembly",
 	"bio_engineer_assembly",
 	"bio_engineer_experimentation",
@@ -323,6 +329,9 @@ lootableClothingAttachmentStatMods = {
 
 lootableArmorStatMods = {
 	"aim",
+	"combat_healing_ability",
+	"combat_medic_effectiveness",
+	"healing_ability",
 	"alert",
 	"armor_assembly",
 	"armor_experimentation",

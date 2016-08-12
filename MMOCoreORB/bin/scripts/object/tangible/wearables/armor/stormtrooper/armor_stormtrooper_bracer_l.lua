@@ -87,27 +87,26 @@ object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_bracer_l = objec
 				"object/mobile/vendor/zabrak_male.iff" },
 	
 	-- Damage types in WeaponObject
-	vulnerability = ACID + STUN + LIGHTSABER,
+	vulnerability = LIGHTSABER,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 15,
-	actionEncumbrance = 16,
-	mindEncumbrance = 19,
+	healthEncumbrance = 1,
+	actionEncumbrance = 1,
+	mindEncumbrance = 1,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
-	
-	maxCondition = 45000,
-	
-	kinetic = 30,
-	energy = 30,
-	electricity = 30,
-	stun = 0,
-	blast = 30,
-	heat = 30,
-	cold = 30,
-	acid = 0,
-	lightSaber = 0
+
+	kinetic = 15,
+	energy = 15,
+	electricity = 15,
+	stun = 15,
+	blast = 15,
+	heat = 15,
+	cold = 15,
+	acid = 15,
+	lightSaber = 0,
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_armor_stormtrooper_armor_stormtrooper_bracer_l, "object/tangible/wearables/armor/stormtrooper/armor_stormtrooper_bracer_l.iff")

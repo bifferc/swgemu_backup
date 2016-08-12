@@ -108,7 +108,7 @@ corellia = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 90, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -120,7 +120,11 @@ tatooine = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 70, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+
+	hasDamagingSandstorms = 0,
+
+	sandstormDamage = 70, -- 40 = Annoying, 100 = deadly
 }
 
 
@@ -133,7 +137,7 @@ dantooine = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 85, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -145,7 +149,7 @@ dathomir = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 50, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -157,7 +161,7 @@ endor = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 90, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -169,7 +173,11 @@ lok = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 60, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+
+	hasDamagingSandstorms = 0,
+
+	sandstormDamage = 50, -- 30 = Annoying, 50 = deadly
 }
 
 -----------------
@@ -181,7 +189,7 @@ naboo = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 90, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -193,7 +201,7 @@ rori = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 80, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -205,7 +213,7 @@ talus = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 80, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -217,7 +225,7 @@ yavin4 = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 70, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
 
 -----------------
@@ -229,29 +237,5 @@ kaas = {
 
 	averageWeatherDuration = 3600, -- In seconds
 
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
-}
-
------------------
---  Ghomrassen
------------------
-ghomrassen = {
-
-	defaultWeather = 0, -- Sunny
-
-	averageWeatherDuration = 3600, -- In seconds
-
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
-}
-
------------------
---    Taanab
------------------
-Taanab = {
-
-	defaultWeather = 0, -- Sunny
-
-	averageWeatherDuration = 3600, -- In seconds
-
-	weatherStability = 100, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
+	weatherStability = 70, -- Range 0 - 100, Higher = Less weather changes, Overall better weather
 }
