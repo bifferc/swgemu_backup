@@ -11,7 +11,6 @@ CrazyLarry = ScreenPlay:new {
 	},
 	goods = {
 		{optName="kit", cost=500, itemName="Customization Kit", items={"object/tangible/item/vehicle_customization.iff"}},
-		{optName="resource deed", cost=5000000, itemName="Customization resource deed", items={"object/tangible/veteran_reward/resource.iff"}},
 		{optName="barc", cost=2000000, itemName="barc", items={"object/tangible/deed/vehicle_deed/barc_speeder_deed.iff"}},
 		{optName="podracer1", cost=10000000, itemName="podracer1", items={"object/tangible/deed/vehicle_deed/pod_racer_one_deed.iff"}},
 		{optName="podracer2", cost=10000000, itemName="podracer2", items={"object/tangible/deed/vehicle_deed/pod_racer_two_deed.iff"}}, 
