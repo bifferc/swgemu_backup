@@ -40,6 +40,12 @@ booba_fett = Creature:new {
 		},
 		{
 			groups = {
+				{group = "av_21_pp", chance = 1000000}
+			},
+			lootChance = 500000
+		 },
+		{
+			groups = {
         {group = "bounty_hunter_armor", chance = 4500000},
 				{group = "weapons_all", chance = 2000000},
 				{group = "g_sword_mandalorian", chance = 500000},

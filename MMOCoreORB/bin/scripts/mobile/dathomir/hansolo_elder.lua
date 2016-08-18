@@ -44,6 +44,12 @@ hansolo_elder = Creature:new {
 			},
 			lootChance = 10000000
 		},
+		{
+			groups = {
+				{group = "av_21_pp", chance = 1000000}
+			},
+			lootChance = 500000
+		 },
 		  {
 			groups = {
 				{group = "crystals_premium", chance = 2500000},

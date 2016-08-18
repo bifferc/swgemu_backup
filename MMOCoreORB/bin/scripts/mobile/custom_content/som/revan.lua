@@ -6,12 +6,12 @@ revan = Creature:new {
 	faction = "",
 	level = 300,
 	chanceHit = 95,
-	damageMin = 5570,
-	damageMax = 10550,
+	damageMin = 570,
+	damageMax = 2550,
 	specialDamageMult = 25,
 	baseXp = 3005409,
-	baseHAM = 10540000,
-	baseHAMmax = 15629000,
+	baseHAM = 5540000,
+	baseHAMmax = 4629000,
 	armor = 3,
 	resists = {80,80,80,80,80,80,80,80,80},
 	meatType = "",
@@ -38,6 +38,12 @@ revan = Creature:new {
 			},
 			lootChance = 10000000
 		},
+		{
+			groups = {
+				{group = "av_21_pp", chance = 1000000}
+			},
+			lootChance = 500000
+		 },
 		{
 			groups = {
 				{group = "pearls_flawless", chance = 5000000},

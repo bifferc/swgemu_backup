@@ -39,6 +39,12 @@ palpatine_elder = Creature:new {
 		},
 		{
 			groups = {
+				{group = "av_21_pp", chance = 1000000}
+			},
+			lootChance = 500000
+		 },
+		{
+			groups = {
 				{group = "pearls_flawless", chance = 5000000},
 				{group = "g_pistol_heroic_exar", chance = 2500000},
 				{group = "clothing_attachments", chance = 2500000}

@@ -45,6 +45,12 @@ janta_chieftain = Creature:new {
 			},
 			lootChance = 10000000
 		},
+		{
+			groups = {
+				{group = "av_21_pp", chance = 1000000}
+			},
+			lootChance = 500000
+		 },
 		 {
 			groups = {
 				{group = "janta_rare", chance = 10000000}

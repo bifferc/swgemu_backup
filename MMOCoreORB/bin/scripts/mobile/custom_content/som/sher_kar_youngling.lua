@@ -40,6 +40,12 @@ sher_kar_youngling = Creature:new {
 		},
 		{
 			groups = {
+				{group = "av_21_pp", chance = 1000000}
+			},
+			lootChance = 500000
+		 },
+		{
+			groups = {
 				{group = "saberhand25", chance = 4000000},
 				{group = "armor_attachments", chance = 2000000},
 				{group = "clothing_attachments", chance = 2000000}
