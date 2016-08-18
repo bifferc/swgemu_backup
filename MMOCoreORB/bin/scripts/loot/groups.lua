@@ -417,6 +417,7 @@ includeFile("groups/saberhand25.lua")
 includeFile("groups/saberhand26.lua")
 includeFile("groups/hansolohand1.lua")
 includeFile("groups/ris1.lua")
+includeFile("groups/nge1.lua")
 -- Custom tables
 includeFile("groups/custom/av_21_pp.lua")
 includeFile("groups/custom/av_21_scheme.lua")
