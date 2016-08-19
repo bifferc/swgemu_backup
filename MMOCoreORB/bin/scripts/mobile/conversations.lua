@@ -202,6 +202,9 @@ includeFile("conversations/record_keepers/record_keeper_rebel_conv.lua")
 -- Personality Conversations
 includeFile("conversations/pet/pets_conv.lua")
 
+-- Misc
+includeFile("conversations/misc/philosopher_conv.lua")
+
 -- Merchants
  includeFile("conversations/hondo/merchants/crazy_larry_conv.lua")
  includeFile("conversations/hondo/merchants/iken_wilyens_conv.lua")

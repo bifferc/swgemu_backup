@@ -1,8 +1,8 @@
-zideera = Creature:new {
+dilvin_lormurojo = Creature:new {
 	objectName = "",
-	customName = "Zideera",
-	socialGroup = "mtn_clan",
-	faction = "mtn_clan",
+	customName = "Dilvin Lormurojo",
+	socialGroup = "townsperson",
+	faction = "townsperson",
 	level = 100,
 	chanceHit = 1,
 	damageMin = 645,
@@ -23,15 +23,14 @@ zideera = Creature:new {
 	ferocity = 0,
 	pvpBitmask = NONE,
 	creatureBitmask = PACK,
-	optionsBitmask = AIENABLED,
+	optionsBitmask = AIENABLED + CONVERSABLE,
 	diet = HERBIVORE,
 
-	templates = {"object/mobile/dressed_zideera.iff"},
+	templates = {"object/mobile/dressed_noble_human_male_03.iff"},
 	lootGroups = {},
 	weapons = {},
-	conversationTemplate = "",
-	attacks = {
-	}
+	conversationTemplate = "dilvin_lormurojo_mission_giver_convotemplate",
+	attacks = {}
 }
 
-CreatureTemplates:addCreatureTemplate(zideera, "zideera")
+CreatureTemplates:addCreatureTemplate(dilvin_lormurojo, "dilvin_lormurojo")

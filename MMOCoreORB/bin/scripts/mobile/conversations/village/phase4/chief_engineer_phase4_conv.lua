@@ -205,7 +205,7 @@ villageChiefEngineerPhase4ConvoTemplate:addScreen(intro);
 
 quite_alright = ConvoScreen:new {
 	id = "quite_alright",
-	leftDialog = "@conversation/fs_phase4_chief_engineer:s_df4917e", -- "That's quite alright. Okay, first I need to... something. Maybe I'll start... no no. Obviously. Well. Something."
+	leftDialog = "@conversation/fs_phase4_chief_engineer:s_caa53683", -- "That's quite alright. Okay, first I need to... something. Maybe I'll start... no no. Obviously. Well. Something."
 	stopConversation = "true",
 	options = {}
 }
@@ -213,7 +213,7 @@ villageChiefEngineerPhase4ConvoTemplate:addScreen(quite_alright);
 
 very_kind = ConvoScreen:new {
 	id = "very_kind",
-	leftDialog = "@conversation/fs_phase4_chief_engineer:s_df4917e", -- "Thank you, that's very kind. Normally I would gladly accept your help, but at the moment I'm already juggling more people and problems than I can handle. Please come back after some time has passed and I'll see if I can phase you in."
+	leftDialog = "@conversation/fs_phase4_chief_engineer:s_9caa26f9", -- "Thank you, that's very kind. Normally I would gladly accept your help, but at the moment I'm already juggling more people and problems than I can handle. Please come back after some time has passed and I'll see if I can phase you in."
 	stopConversation = "true",
 	options = {}
 }

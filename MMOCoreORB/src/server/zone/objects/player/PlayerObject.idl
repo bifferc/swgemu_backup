@@ -929,9 +929,8 @@ class PlayerObject extends IntangibleObject {
 	 * @post { }
 	 */
 	public native void notifyOnline();
+	public native int numSpecificSkills(CreatureObject 	creature, final string reqSkillName);
 
-	public native int numSpecificSkills(CreatureObject creature, final string reqSkillName);
-	
 	public native void doDigest(int fillingReduction);
 	
 	@dirty
@@ -1634,7 +1633,7 @@ class PlayerObject extends IntangibleObject {
 
 	//Used when character is deleted
 	private native void removeAllFriends();
-	private native void deleteAllPersistentMessages();
+	public native void deleteAllPersistentMessages();
 	private native void deleteAllWaypoints();
 
 	@read
