@@ -27,9 +27,6 @@ require("sui.custom.SuiReceiverPuzzle")
 
 includeFile("helperfuncs.lua")
 
--- Custom Content
-includeFile("custom_content/screenplays.lua")
-
 -- Theme parks
 includeFile("themepark/conversations/goru_conv_handler.lua")
 includeFile("themepark/conversations/mission_giver_conv_handler.lua")
@@ -46,11 +43,14 @@ includeFile("themepark/jabba/themeParkJabba.lua")
 includeFile("themepark/valarian/themeParkValarian.lua")
 includeFile("themepark/marauder/themeParkMarauder.lua")
 includeFile("themepark/nightsister/themeParkNightsister.lua")
+includeFile("themepark/smc/themeParkSmcZideera.lua")
+includeFile("themepark/smc/themeParkSmcVhaundaIzaryx.lua")
 
 -- Staff tools
 includeFile("tools/tools.lua")
 includeFile("tools/shuttle_dropoff.lua")
 includeFile("tools/firework_event.lua")
+includeFile("tools/place_structure_menu.lua")
 
 -- GCW
 includeFile("gcw/newsnet.lua")
@@ -105,10 +105,6 @@ includeFile("dungeon/corellian_corvette/bronell.lua")
 includeFile("dungeon/corellian_corvette/ds_297.lua")
 includeFile("dungeon/corellian_corvette/klaatu.lua")
 includeFile("dungeon/corellian_corvette/lt_lance.lua")
-
--- Enclaves
-includeFile("enclaves/yavin4_light_enclave.lua")
-includeFile("enclaves/yavin4_dark_enclave.lua")
 
 -- Village
 includeFile("village/village_gm_commands.lua")
@@ -255,6 +251,8 @@ includeFile("tasks/generic/noble.lua")
 includeFile("tasks/generic/scientist.lua")
 includeFile("tasks/naboo/arven_wendik.lua")
 includeFile("tasks/naboo/boss_nass.lua")
+includeFile("tasks/naboo/damalia_korde.lua")
+includeFile("tasks/naboo/dilvin_lormurojo.lua")
 includeFile("tasks/naboo/captain_gavyn_sykes.lua")
 includeFile("tasks/naboo/huff_zinga.lua")
 includeFile("tasks/naboo/kima_nazith.lua")
@@ -264,6 +262,7 @@ includeFile("tasks/naboo/lergo_brazee.lua")
 includeFile("tasks/naboo/librarian.lua")
 includeFile("tasks/naboo/mullud_bombo.lua")
 includeFile("tasks/naboo/pooja_naberrie.lua")
+includeFile("tasks/naboo/rep_been.lua")
 includeFile("tasks/naboo/rovim_minnoni.lua")
 includeFile("tasks/naboo/tamvar_senzen.lua")
 includeFile("tasks/naboo/vana_sage.lua")
@@ -324,6 +323,7 @@ includeFile("tasks/yavin4/ruwan_tokai.lua")
 includeFile("tasks/misc/heralds.lua")
 includeFile("tasks/misc/theater_manager.lua")
 includeFile("tasks/misc/conversations/kidnappedNobleConvoHandler.lua")
+includeFile("tasks/misc/conversations/philosopher_conv_handler.lua")
 
 -- Caves
 includeFile("caves/corellia_afarathu_cave.lua")
@@ -527,3 +527,10 @@ includeFile("hondo/merchants/john_connor.lua")
 includeFile("gcw/gcw_transit_system.lua")
 includeFile("gcw/reb_transit_system.lua")
 includeFile("gcw/gcw_transit_deco.lua")
+
+-- Enclaves
+includeFile("enclaves/yavin4_light_enclave.lua")
+includeFile("enclaves/yavin4_dark_enclave.lua")
+
+-- Custom Content
+includeFile("custom_content/screenplays.lua")
