@@ -15,7 +15,7 @@ end
 
 function SingingMountainClanScreenPlay:spawnMobiles()
 
-	--Structure Entrance. 154, 4573
+	---Structure Entrance. 154, 4573
 
 	spawnMobile("dathomir", "singing_mountain_clan_sentry", 900, -1.5, 2.0, 5.6, 78, 2665879)
 	spawnMobile("dathomir", "singing_mountain_clan_sentry", 900, -1.4, 2.0, 10.1, 81, 2665879)
