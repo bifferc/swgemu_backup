@@ -63,6 +63,8 @@ ServiceClient* StatusServer::createConnection(Socket* sock, SocketAddress& addr)
 Packet* StatusServer::getStatusXMLPacket() {
 	Packet* pack = new Packet();
 
+	timestamp.updateToCurrentTime();
+
 	StringBuffer str;
 	str << "<?xml version=\"1.0\" standalone=\"yes\"?>" << endl;
 	str << "<zoneServer>" << endl;
