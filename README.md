@@ -49,6 +49,8 @@ Collaboration Credit Is Given To The Following Contributors
 * https://github.com/washu
 * https://github.com/Thrax989 - Project Lead Creator 
 * https://github.com/terminator2014 - LOK General Bunker Creator
+* Cesta - Project Phoenix Jedi Unlock System / Dev op Operating System Installer / Security Operative
+* Blasto - Added Additional Input\Idea To Cesta's Jedi Unlock System
 * BeetleJuice - Random NPC Additions / Loot /game Balanace Tweaks
 * Cadmus - Random NPC Additions / Loot /game Balanace Tweaks
 * Helios - Random NPC Additions / Loot /game Balanace Tweaks
