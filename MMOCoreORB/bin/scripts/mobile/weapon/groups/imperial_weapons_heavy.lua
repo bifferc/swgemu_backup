@@ -1,9 +1,6 @@
 imperial_weapons_heavy = {
-	"object/weapon/ranged/carbine/carbine_dxr6.iff",
-	"object/weapon/ranged/rifle/rifle_berserker.iff",
-	"object/weapon/ranged/rifle/rifle_laser.iff",
-	"object/weapon/ranged/rifle/rifle_dlt20a.iff",
-	"object/weapon/melee/polearm/lance_vibrolance.iff"
+	"object/weapon/ranged/rifle/rifle_berserker.iff",	"object/weapon/ranged/pistol/pistol_de_10.iff",
+	"object/weapon/ranged/pistol/ep3/pistol_wookiee_bowcaster.iff"
 }
 
 addWeapon("imperial_weapons_heavy", imperial_weapons_heavy)
