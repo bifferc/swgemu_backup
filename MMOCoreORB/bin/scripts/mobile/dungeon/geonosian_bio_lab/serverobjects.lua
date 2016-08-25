@@ -1,3 +1,4 @@
+includeFile("dungeon/geonosian_bio_lab/gungi")
 includeFile("dungeon/geonosian_bio_lab/poggle_the_lesser.lua")
 includeFile("dungeon/geonosian_bio_lab/acklay.lua")
 includeFile("dungeon/geonosian_bio_lab/acklay_elder.lua")
