@@ -1,5 +1,6 @@
 imperial_weapons_heavy = {
-	"object/weapon/ranged/rifle/rifle_berserker.iff",	"object/weapon/ranged/pistol/pistol_de_10.iff",
+	"object/weapon/ranged/rifle/rifle_berserker.iff",
+	"object/weapon/ranged/pistol/pistol_de_10.iff",
 	"object/weapon/ranged/pistol/ep3/pistol_wookiee_bowcaster.iff"
 }
 
