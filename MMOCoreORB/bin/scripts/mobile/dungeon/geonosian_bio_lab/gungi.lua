@@ -27,7 +27,6 @@ gungi = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	scale = 0.7,
-	templates = {"object/mobile/chewbacca.iff"},
 	lootGroups = {
 		{
 			groups = {
