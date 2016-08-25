@@ -4,14 +4,14 @@ janta_chieftain = Creature:new {
 	pvpFaction = "",
 	faction = "janta_tribe",
 	level = 300,
-	chanceHit = 75.25,
-	damageMin = 2820,
-	damageMax = 3750,
-	baseXp = 27207,
-	baseHAM = 445000,
-	baseHAMmax = 1025000,
+	chanceHit = 50.00,
+	damageMin = 1800,
+	damageMax = 3310,
+	baseXp = 27849,
+	baseHAM = 321000,
+	baseHAMmax = 392000,
 	armor = 3,
-	resists = {90,90,90,90,90,90,90,90,45},
+	resists = {50,50,50,50,50,50,50,50,50},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -23,7 +23,7 @@ janta_chieftain = Creature:new {
 	ferocity = 0,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = KILLER + STALKER,
-	optionsBitmask = AIENABLED + INTERESTING,
+	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	scale = 2.0,
 
@@ -47,19 +47,19 @@ janta_chieftain = Creature:new {
 		},
 		{
 			groups = {
-				{group = "av_21_pp", chance = 1000000}
+				{group = "nge2", chance = 1000000}
 			},
-			lootChance = 500000
+			lootChance = 1000000
 		 },
 		 {
 			groups = {
-				{group = "janta_rare", chance = 10000000}
+				{group = "g_pistol_heroic_exar", chance = 10000000}
 			},
 			lootChance = 10000000
 		},
 		 {
 			groups = {
-				{group = "janta_rare", chance = 10000000}
+				{group = "g_som_2h_sword_obsidian", chance = 10000000}
 			},
 			lootChance = 10000000
 		},

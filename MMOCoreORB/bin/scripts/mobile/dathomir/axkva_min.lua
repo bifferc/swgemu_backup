@@ -11,7 +11,7 @@ axkva_min = Creature:new {
 	baseHAM = 385000,
 	baseHAMmax = 471000,
 	armor = 3,
-	resists = {100,35,35,100,100,100,100,100,-1},
+	resists = {70,70,70,70,70,70,70,70,70},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -30,26 +30,58 @@ axkva_min = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "crystals_premium",  chance = 1000000},
-				{group = "nightsister_common",  chance = 1000000},
-				{group = "pistols",  chance = 1000000},
-				{group = "rifles",  chance = 1000000},
-				{group = "carbines",  chance = 1000000},
-				{group = "melee_weapons",  chance = 1000000},
-				{group = "armor_attachments",  chance = 1000000},
-				{group = "clothing_attachments",  chance = 1000000},
-				{group = "redeed1",  chance = 1000000},
-				{group = "redeed2",  chance = 1000000}
-			}
+				{group = "axkva_min", chance = 5000000},
+				{group = "armor_attachments", chance = 2500000},
+				{group = "clothing_attachments", chance = 2500000}
+			},
+			lootChance = 5000000
 		},
 		{
 			groups = {
-				{group = "axkva_min", chance = 5000000},
-				{group = "nightsister2",  chance = 5000000}
+				{group = "nge1", chance = 10000000}
+			},
+			lootChance = 5000000
+		 },
+		{
+			groups = {
+				{group = "nightsister_common", chance = 10000000}
 			},
 			lootChance = 10000000
-		}
-	},
+		 },
+		{
+			groups = {
+				{group = "wearables_rare", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "weapons_all", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "melee_weapons", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "axkva_min", chance = 5000000},
+				{group = "armor_attachments", chance = 2500000},
+				{group = "clothing_attachments", chance = 2500000}
+			},
+			lootChance = 10000000
+		},
+		 {
+			groups = {
+				{group = "axkva_min", chance = 5000000},
+				{group = "nightsister_common", chance = 5000000}
+			},
+			lootChance = 5000000
+		},
+		},	
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
 	attacks = merge(fencermaster,swordsmanmaster,tkamaster,pikemanmaster,brawlermaster)

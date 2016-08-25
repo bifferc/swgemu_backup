@@ -4,12 +4,12 @@ obi_wan_ghost = Creature:new {
 	pvpFaction = "",
 	faction = "rebel",
 	level = 300,
-	chanceHit = 100,
-	damageMin = 1400,
-	damageMax = 5300,
-	baseXp = 160880,
-	baseHAM = 96000,
-	baseHAMmax = 278000,
+	chanceHit = 75.00,
+	damageMin = 1800,
+	damageMax = 3310,
+	baseXp = 27849,
+	baseHAM = 821000,
+	baseHAMmax = 1092000,
 	armor = 3,
 	resists = {90,90,90,90,90,90,90,90,90},
 	meatType = "",
@@ -27,21 +27,61 @@ obi_wan_ghost = Creature:new {
 	diet = HERBIVORE,
 
 	templates = {"object/mobile/som/obi_wan_ghost.iff"},
-	lootGroups = {
+		lootGroups = {
 		{
 			groups = {
-				{group = "redeed1", chance = 1500000},
-				{group = "redeed2", chance = 3000000},
-				{group = "wearables_scarce", chance = 2000000},
-				{group = "redeed3", chance = 750000},
-				{group = "redeed4", chance = 750000},
-				{group = "council4_dark", chance = 500000},
-				{group = "clothing_attachments", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "crystals_premium", chance = 500000}
-			}
-		}
-	},
+				{group = "saberhand3", chance = 5000000},
+				{group = "armor_attachments", chance = 2500000},
+				{group = "clothing_attachments", chance = 2500000}
+			},
+			lootChance = 5000000
+		},
+		{
+			groups = {
+				{group = "nge1", chance = 10000000}
+			},
+			lootChance = 5000000
+		 },
+		{
+			groups = {
+				{group = "wearables_all", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "wearables_rare", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "weapons_all", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "melee_weapons", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "saberhand3", chance = 5000000},
+				{group = "armor_attachments", chance = 2500000},
+				{group = "clothing_attachments", chance = 2500000}
+			},
+			lootChance = 10000000
+		},
+		 {
+			groups = {
+				{group = "saberhand1", chance = 5000000},
+				{group = "saberhand2", chance = 5000000}
+			},
+			lootChance = 5000000
+		},
+		},	
 	weapons = {"dark_jedi_weapons_gen4"},
 	conversationTemplate = "",
 	attacks = merge(lightsabermaster)

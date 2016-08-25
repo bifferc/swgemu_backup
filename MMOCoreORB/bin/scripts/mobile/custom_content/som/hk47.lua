@@ -4,13 +4,12 @@ hk47 = Creature:new {
 	pvpFaction = "",
 	faction = "",
 	level = 300,
-	chanceHit = 100,
-	damageMin = 1500,
-	damageMax = 5500,
-	specialDamageMult = 10,
-	baseXp = 22344000,
-	baseHAM = 560000,
-	baseHAMmax = 690000,
+	chanceHit = 50.00,
+	damageMin = 1800,
+	damageMax = 3310,
+	baseXp = 27849,
+	baseHAM = 421000,
+	baseHAMmax = 592000,
 	armor = 3,
 	resists = {90,90,90,90,90,90,90,90,90},
 	meatType = "",
@@ -26,30 +25,62 @@ hk47 = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
-
 	templates = {"object/mobile/som/hk47.iff"},
-	lootGroups = {
+		lootGroups = {
 		{
 			groups = {
-				{group = "redeed4", chance = 1000000},
-				{group = "redeed2", chance = 1000000},
-				{group = "crystals_premium", chance = 1000000},
-				{group = "pearls_flawless", chance = 1000000},
-				{group = "clothing_attachments", chance = 1000000},
-				{group = "som_carbine_republic_sfor", chance = 2000000},
-				{group = "g_lance_gcw_gand_shockprod", chance = 1000000},
-				{group = "armor_attachments", chance = 1000000},
-				{group = "crystal_kuns_blood", chance = 1000000}
-			}
+				{group = "saberhand3", chance = 5000000},
+				{group = "armor_attachments", chance = 2500000},
+				{group = "clothing_attachments", chance = 2500000}
+			},
+			lootChance = 5000000
 		},
 		{
 			groups = {
-				{group = "mandalorian_schemes", chance = 5000000},
-				{group = "bounty_hunter_schemes",  chance = 5000000}
+				{group = "nge1", chance = 10000000}
+			},
+			lootChance = 5000000
+		 },
+		{
+			groups = {
+				{group = "wearables_all", chance = 10000000}
 			},
 			lootChance = 10000000
-		}
-	},
+		 },
+		{
+			groups = {
+				{group = "wearables_rare", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "weapons_all", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "melee_weapons", chance = 10000000}
+			},
+			lootChance = 10000000
+		 },
+		{
+			groups = {
+				{group = "saberhand3", chance = 5000000},
+				{group = "armor_attachments", chance = 2500000},
+				{group = "clothing_attachments", chance = 2500000}
+			},
+			lootChance = 10000000
+		},
+		 {
+			groups = {
+				{group = "saberhand1", chance = 5000000},
+				{group = "saberhand2", chance = 5000000}
+			},
+			lootChance = 5000000
+		},
+		},	
 	reactionStf = "@npc_reaction/slang",
 	defaultWeapon = "object/weapon/ranged/droid/droid_droideka_ranged.iff",
 	defaultAttack = "creaturerangedattack"

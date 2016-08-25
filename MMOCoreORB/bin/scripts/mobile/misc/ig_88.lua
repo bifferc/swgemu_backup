@@ -3,13 +3,12 @@ ig_88 = Creature:new {
 	socialGroup = "mercenary",
 	faction = "",
 	level = 300,
-	chanceHit = 75,
-	damageMin = 5645,
-	damageMax = 7200,
-	specialDamageMult = 25,
-	baseXp = 940029,
-	baseHAM = 9000000,
-	baseHAMmax = 10500000,
+	chanceHit = 50.00,
+	damageMin = 1800,
+	damageMax = 3310,
+	baseXp = 27849,
+	baseHAM = 521000,
+	baseHAMmax = 692000,
 	armor = 3,
 	resists = {60,60,60,60,60,60,60,60,60},
 	meatType = "",
@@ -21,8 +20,8 @@ ig_88 = Creature:new {
 	milk = 0,
 	tamingChance = 0,
 	ferocity = 0,
-	pvpBitmask = AGGRESSIVE + ENEMY + ATTACKABLE,
-	creatureBitmask = PACK + KILLER,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	scale = 3.0,
@@ -31,7 +30,7 @@ ig_88 = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "saberhand24", chance = 5000000},
+				{group = "saberhand4", chance = 5000000},
 				{group = "armor_attachments", chance = 2500000},
 				{group = "clothing_attachments", chance = 2500000}
 			},
@@ -45,7 +44,7 @@ ig_88 = Creature:new {
 		 },
 		{
 			groups = {
-				{group = "saberhand25", chance = 5000000},
+				{group = "nge3", chance = 5000000},
 				{group = "armor_attachments", chance = 2500000},
 				{group = "clothing_attachments", chance = 2500000}
 			},
@@ -53,8 +52,8 @@ ig_88 = Creature:new {
 		},
 		 {
 			groups = {
-				{group = "saberhand22", chance = 5000000},
-				{group = "saberhand23", chance = 5000000}
+				{group = "saberhand5", chance = 5000000},
+				{group = "saberhand6", chance = 5000000}
 			},
 			lootChance = 10000000
 		},
