@@ -1,7 +1,7 @@
 gungi = Creature:new {
 	objectName = "@mob/creature_names:",
 	customName = "Gungi",
-	socialGroup = "geonosian_creature",
+	socialGroup = "",
 	pvpFaction = "",
 	faction = "",
 	level = 300,
@@ -26,12 +26,8 @@ gungi = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
-	scale = 0.5,
-
-	templates = {
-		"object/mobile/dressed_geonosian_warrior_01.iff",
-		"object/mobile/dressed_geonosian_warrior_02.iff",
-		"object/mobile/dressed_geonosian_warrior_03.iff"},
+	scale = 0.7,
+	templates = {"object/mobile/chewbacca.iff"},
 	lootGroups = {
 		{
 			groups = {
