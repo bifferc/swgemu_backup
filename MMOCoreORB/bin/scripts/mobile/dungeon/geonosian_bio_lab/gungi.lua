@@ -26,7 +26,7 @@ gungi = Creature:new {
 	creatureBitmask = KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
-	scale = 0.7,
+	scale = 0.5,
 	templates = {"object/mobile/ep3/wookiee_spirit_healer_01.iff"},
 	lootGroups = {
 		{
