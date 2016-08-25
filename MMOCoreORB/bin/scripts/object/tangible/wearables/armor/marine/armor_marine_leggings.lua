@@ -98,14 +98,14 @@ object_tangible_wearables_armor_marine_armor_marine_leggings = object_tangible_w
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 45,
-	energy = 45,
-	electricity = 45,
-	stun = 45,
-	blast = 45,
-	heat = 45,
-	cold = 45,
-	acid = 45,
+	kinetic = 65,
+	energy = 65,
+	electricity = 65,
+	stun = 65,
+	blast = 65,
+	heat = 65,
+	cold = 65,
+	acid = 65,
 	lightSaber = 0,
 }
 
