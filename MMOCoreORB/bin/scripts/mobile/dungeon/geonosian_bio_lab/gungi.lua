@@ -1,7 +1,7 @@
 gungi = Creature:new {
 	objectName = "@mob/creature_names:",
 	customName = "Gungi",
-	socialGroup = "",
+	socialGroup = "geonosian_creature",
 	pvpFaction = "",
 	faction = "",
 	level = 300,
@@ -29,7 +29,9 @@ gungi = Creature:new {
 	scale = 0.5,
 
 	templates = {
-		"object/mobile/chewbacca.iff",
+		"object/mobile/dressed_geonosian_warrior_01.iff",
+		"object/mobile/dressed_geonosian_warrior_02.iff",
+		"object/mobile/dressed_geonosian_warrior_03.iff"},
 	lootGroups = {
 		{
 			groups = {
@@ -239,4 +241,4 @@ gungi = Creature:new {
 	attacks = merge(lightsabermaster,forcepowermaster)
 }
 
-CreatureTemplates:addCreatureTemplate(poggle_the_lesser, "poggle_the_lesser")
+CreatureTemplates:addCreatureTemplate(gungi, "gungi")

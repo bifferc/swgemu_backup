@@ -24,7 +24,6 @@ chewbacca_elder = Creature:new {
 	diet = HERBIVORE,
 	templates = {"object/mobile/chewbacca.iff"},
 	lootGroups = {
-	lootGroups = {
 		{
 			groups = {
 				{group = "saberhand3", chance = 5000000},
