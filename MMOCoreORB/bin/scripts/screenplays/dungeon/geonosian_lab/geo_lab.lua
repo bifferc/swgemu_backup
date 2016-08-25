@@ -5,7 +5,7 @@ includeFile("dungeon/geonosian_lab/conversations/geonosianConvoHandlers.lua")
 GeonosianLabScreenPlay = ScreenPlay:new {
 	numberOfActs = 1,
 
-	keypadCodes = { 32281, 12872, 77777, 12753, 86332, 99999, 52577, 78660 },
+	keypadCodes = { 32281, 12872, 51892, 12753, 86332, 11380, 52577, 78660 },
 	lockedCells = { 1627785, 1627786, 1627790, 1627805, 1627812, 1627815, 1627822, 1627823 },
 
 	--debris fields, all respawns are set to 4 minutes
