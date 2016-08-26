@@ -35,7 +35,7 @@ krayt_dragon_adolescent_elder = Creature:new {
  					{group = "krayt_tissue_uncommon", chance = 2000000},
  					{group = "pearls_flawless", chance = 4000000},
  					{group = "clothing_attachments", chance = 1000000},
- 					{group = "weapons_all", chance = 1000000}
+ 					{group = "weapons_all", chance = 1000000},
  			},
  			lootChance = 10000000
  		}
