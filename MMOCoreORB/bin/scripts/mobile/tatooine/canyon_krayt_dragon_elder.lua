@@ -48,4 +48,4 @@ canyon_krayt_dragon_elder = Creature:new {
 	}
 }
 
-CreatureTemplates:addCreatureTemplate(giant_canyon_krayt_dragon_elder, "canyon_krayt_dragon_elder")
+CreatureTemplates:addCreatureTemplate(canyon_krayt_dragon_elder, "canyon_krayt_dragon_elder")
