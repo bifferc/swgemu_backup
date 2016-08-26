@@ -31,9 +31,9 @@ canyon_krayt_dragon_elder = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-					{group = "krayt_tissue_uncommon", chance = 3000000},
+					{group = "krayt_tissue_uncommon", chance = 2000000},
 					{group = "krayt_dragon_common2", chance = 2000000},
-					{group = "pearls_premium", chance = 3000000},
+					{group = "pearls_premium", chance = 4000000},
 					{group = "clothing_attachments", chance = 1000000},
 					{group = "weapons_all", chance = 1000000},
 			},
@@ -48,5 +48,4 @@ canyon_krayt_dragon_elder = Creature:new {
 	}
 }
 
-
-CreatureTemplates:addCreatureTemplate(canyon_krayt_dragon_elder, "canyon_krayt_dragon_elder")
+CreatureTemplates:addCreatureTemplate(giant_canyon_krayt_dragon_elder, "canyon_krayt_dragon_elder")
