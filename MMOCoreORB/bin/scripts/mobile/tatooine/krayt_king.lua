@@ -21,8 +21,8 @@
 	milk = 0,
 	tamingChance = 0.25,
 	ferocity = 20,
-	pvpBitmask = AGGRESSIVE  ATTACKABLE  ENEMY,
-	creatureBitmask = PACK  KILLER  STALKER,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 
