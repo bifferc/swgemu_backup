@@ -3,11 +3,11 @@ canyon_krayt_dragon_elder = Creature:new {
 	customName = "canyon krayt dragon elder",
 	socialGroup = "krayt",
 	faction = "",
-	level = 300,
+	level = 275,
 	chanceHit = 27.25,
 	damageMin = 1520,
 	damageMax = 2750,
-	baseXp = 263560,
+	baseXp = 26356,
 	baseHAM = 321000,
 	baseHAMmax = 392000,
 	armor = 3,
@@ -31,9 +31,9 @@ canyon_krayt_dragon_elder = Creature:new {
 	lootGroups = {
 		{
 	        groups = {
-					{group = "krayt_tissue_uncommon", chance = 2000000},
+					{group = "krayt_tissue_uncommon", chance = 3000000},
 					{group = "krayt_dragon_common2", chance = 2000000},
-					{group = "pearls_premium", chance = 4000000},
+					{group = "pearls_premium", chance = 3000000},
 					{group = "clothing_attachments", chance = 1000000},
 					{group = "weapons_all", chance = 1000000},
 			},
@@ -47,5 +47,6 @@ canyon_krayt_dragon_elder = Creature:new {
 		{"stunattack","stateAccuracyBonus=50"}
 	}
 }
+
 
 CreatureTemplates:addCreatureTemplate(canyon_krayt_dragon_elder, "canyon_krayt_dragon_elder")
