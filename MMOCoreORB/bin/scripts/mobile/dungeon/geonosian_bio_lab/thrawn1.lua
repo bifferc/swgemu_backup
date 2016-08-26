@@ -1,4 +1,4 @@
-thrawnz = Creature:new {
+thrawn1 = Creature:new {
 	objectName = "@mob/creature_names:",
 	customName = "Grand Admiral Thrawn",
 	socialGroup = "",
@@ -234,7 +234,7 @@ thrawnz = Creature:new {
 		},
 	weapons = {"imperial_weapons_heavy"},
 	reactionStf = "@npc_reaction/slang",
-	attacks = attacks = merge(bountyhuntermaster,marksmanmaster,brawlermaster,pikemanmaster,fencermaster,swordsmanmaster,tkamaster,pistoleermaster,commandomaster)
+	attacks = merge(bountyhuntermaster,marksmanmaster,brawlermaster,pikemanmaster,fencermaster,swordsmanmaster,tkamaster,pistoleermaster,commandomaster)
 }
 
-CreatureTemplates:addCreatureTemplate(thrawnz, "thrawnz")
+CreatureTemplates:addCreatureTemplate(thrawn1, "thrawn1")
