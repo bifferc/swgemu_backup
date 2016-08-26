@@ -21,8 +21,8 @@ juvenile_canyon_krayt_dragon_elder = Creature:new {
  	milk = 0,
  	tamingChance = 0.25,
  	ferocity = 20,
- 	pvpBitmask = AGGRESSIVE  ATTACKABLE  ENEMY,
- 	creatureBitmask = PACK  KILLER,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER + STALKER,
  	optionsBitmask = AIENABLED,
  	diet = CARNIVORE,
  
