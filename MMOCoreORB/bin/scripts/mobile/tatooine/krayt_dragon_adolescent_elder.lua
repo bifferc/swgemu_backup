@@ -21,8 +21,8 @@ krayt_dragon_adolescent_elder = Creature:new {
  	milk = 0,
  	tamingChance = 0.25,
  	ferocity = 30,
- 	pvpBitmask = AGGRESSIVE  ATTACKABLE  ENEMY,
- 	creatureBitmask = PACK  KILLER  STALKER,
+	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
+	creatureBitmask = PACK + KILLER + STALKER,
  	optionsBitmask = AIENABLED,
  	diet = CARNIVORE,
  
