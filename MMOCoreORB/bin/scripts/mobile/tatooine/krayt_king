@@ -28,29 +28,46 @@
 
 	templates = {"object/mobile/canyon_krayt_dragon.iff"},
 	scale = 1.5;
-	lootGroups = {
+lootGroups = {
 		{
-	        groups = {
-					{group = "g_named_crystals.lua", chance = 3000000},
-					{group = "saberhand25", chance = 2000000},
-					{group = "saberhand26", chance = 3000000},
-					{group = "clothing_attachments", chance = 2000000},
+			groups = {
+				{group = "armor_attachments", chance = 5000000},
+				{group = "clothing_attachments", chance = 5000000}
 			},
 			lootChance = 10000000
-		}
-				{
-	        groups = {
-					{group = "nge1", chance = 10000000},
+		},
+		{
+			groups = {
+				{group = "armor_attachments", chance = 5000000},
+				{group = "clothing_attachments", chance = 5000000}
 			},
-			lootChance = 500000
-		}
-				{
-	        groups = {
-					{group = "nge2.lua", chance = 3000000},
+			lootChance = 10000000
+		},
+		 {
+			groups = {
+				{group = "nge1", chance = 10000000}
 			},
-			lootChance = 500000
-		}
-	},
+			lootChance = 100000
+		},
+		 {
+			groups = {
+				{group = "nge2", chance = 10000000}
+			},
+			lootChance = 100000
+		},
+		 {
+			groups = {
+				{group = "nge3", chance = 10000000}
+			},
+			lootChance = 100000
+		},
+		 {
+			groups = {
+				{group = "g_named_crystals", chance = 10000000}
+			},
+			lootChance = 2000000
+		},
+		},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {
