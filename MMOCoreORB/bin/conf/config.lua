@@ -137,7 +137,7 @@ ZonesEnabled = {
 
 
 -- directory of tres with live.cfg
-TrePath = "/home/swgemu/workspace/tre"
+TrePath = "/home/vagrant/Desktop/RisingTRE"
 
 TreFiles = {
 	"nw_001.tre",
